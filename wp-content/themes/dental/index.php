@@ -167,7 +167,7 @@
                                 data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default">
-                                        Your Premier Cosmetic & General Dentistry Facility</h5>
+                                        Comprehensive Dental Care for Every Smile</h5>
                                 </div>
                             </div>
 
@@ -176,7 +176,7 @@
                                 data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h1 class="elementor-heading-title elementor-size-default">
-                                        You Deserve Excellence</h1>
+                                        Experience Dentistry with Comfort & Care</h1>
                                 </div>
                             </div>
 
@@ -184,22 +184,9 @@
                                 data-id="54451a1d" data-element_type="widget"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>At Troy Dental Studio, our goal is to create a warm and
-                                        inviting atmosphere for the entire family. In addition
-                                        to our up-to-date treatment options, Dr. Shikha Batra
-                                        and staff aim to provide an exceptional and professional
-                                        patient experience for every patient who visits our
-                                        Dental office in Troy.</p>
-                                    <p>We pride ourselves on providing an exceptional experience
-                                        that is built around you. Our Dentist is with you every
-                                        step of the way. Together, we will create a beautiful
-                                        smile you will love sharing.</p>
-                                    <p>If you are searching for a world renowned dentist in Troy
-                                        who can deliver a beautiful smile that will change your
-                                        life, Dr. Batra is your one-stop solution. Our team of
-                                        the best dentists utilize the most cutting-edge
-                                        technology to deliver outstanding Dental Services in
-                                        Troy.</p>
+                                    <p>At Aliso Dental Care, we are committed to creating a welcoming environment where patients of all ages feel at ease. Our modern treatments combined with compassionate care ensure that every visit is a positive experience.</p>
+                                    <p>We focus on personalized dental solutions designed around your needs. From preventive care to advanced cosmetic procedures, our team is here to guide you toward achieving and maintaining a healthy, confident smile.</p>
+                                    <p>If you are looking for a trusted dentist in Troy who values precision, artistry, and patient comfort, Dr. Shikha Batra and her dedicated team provide the expertise and technology to transform your dental health.</p>
                                 </div>
                             </div>
 
@@ -209,10 +196,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="contact.html">
+                                            href="<?php echo site_url(); ?>/contact-us">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Book An
-                                                    Appointment</span>
+                                                <span class="elementor-button-text">Schedule Your Visit</span>
                                             </span>
                                         </a>
                                     </div>
@@ -237,12 +223,11 @@
                                         sizes="(max-width: 800px) 100vw, 800px">
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </section>
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-c70e23c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="c70e23c" data-element_type="section"
