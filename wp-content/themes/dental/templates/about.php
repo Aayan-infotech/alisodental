@@ -889,55 +889,6 @@
                     </div>
                 </div>
             </section>
-
-
-            <section class="share-story-section text-center py-5">
-                <div class="container">
-                    <h2 class="section-title mb-4">Share Your Story</h2>
-                    <div class="row justify-content-center gx-5">
-
-                        <!-- Google -->
-                        <div class="col-12 col-md-4 mb-4">
-                            <div class="icon-box mx-auto">
-                                <a href="https://www.google.com/maps/place/Troy+Dental+Studio" target="_blank" rel="noopener" aria-label="Google">
-                                    <i class="fab fa-google icon-google"></i>
-                                </a>
-                                <h3 class="icon-title mt-3">
-                                    <a href="https://www.google.com/maps/place/Troy+Dental+Studio" target="_blank" rel="noopener">Google</a>
-                                </h3>
-                                <p class="icon-desc">Find real stories on Google!</p>
-                            </div>
-                        </div>
-
-                        <!-- Facebook -->
-                        <div class="col-12 col-md-4 mb-4">
-                            <div class="icon-box mx-auto">
-                                <a href="https://www.facebook.com/troydentalstudio/" target="_blank" rel="noopener" aria-label="Facebook">
-                                    <i class="fab fa-facebook icon-facebook"></i>
-                                </a>
-                                <h3 class="icon-title mt-3">
-                                    <a href="https://www.facebook.com/troydentalstudio/" target="_blank" rel="noopener">Facebook</a>
-                                </h3>
-                                <p class="icon-desc">Read other user stories!</p>
-                            </div>
-                        </div>
-
-                        <!-- Instagram -->
-                        <div class="col-12 col-md-4 mb-4">
-                            <div class="icon-box mx-auto">
-                                <a href="https://www.instagram.com/troydentalstudio/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
-                                    <i class="fab fa-instagram icon-instagram"></i>
-                                </a>
-                                <h3 class="icon-title mt-3">
-                                    <a href="https://www.instagram.com/troydentalstudio/?hl=en" target="_blank" rel="noopener">Instagram</a>
-                                </h3>
-                                <p class="icon-desc">Rate us today!</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
         </div>
     </div>
 </div>

@@ -178,7 +178,7 @@
 
                 <!-- Contact & Links Section -->
                 <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-163e5bc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-163e5bc elementor-section-boxed elementor-section-height-default elementor-section-height-default bg-dark"
                     data-id="163e5bc" data-element_type="section"
                     data-settings='{"background_background":"classic"}'>
                     <div class="elementor-container elementor-column-gap-default">
@@ -410,7 +410,7 @@
 
                 <!-- Footer Credit -->
                 <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-5051905 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-5051905 elementor-section-boxed elementor-section-height-default elementor-section-height-default bg-dark"
                     data-id="5051905" data-element_type="section"
                     data-settings='{"background_background":"classic"}'>
                     <div class="elementor-container elementor-column-gap-default">
@@ -421,9 +421,9 @@
                                     data-id="bd05918" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        Website Designed by <a href="https://o360.com/"
+                                        Designed & Developed by <a href="https://aayaninfotech.com/"
                                             target="_blank"
-                                            style="color: rgba(199, 198, 198, 0.8);">O360®</a>
+                                            style="color: rgba(199, 198, 198, 0.8);">Aayan Infotech</a>
                                     </div>
                                 </div>
                             </div>
@@ -434,6 +434,7 @@
             </footer>
         </div>
     </div>
+</div>
 </div>
 </body>
 

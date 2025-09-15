@@ -27,29 +27,19 @@
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-md-12">
-
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                    <!-- Page Title -->
                     <h1 class="page-title text-center mb-4"><?php the_title(); ?></h1>
-
-                    <!-- Featured Image -->
                     <?php if (has_post_thumbnail()) : ?>
                         <div class="page-featured-img mb-4 text-center">
                             <?php the_post_thumbnail('large', ['class' => 'img-fluid rounded shadow']); ?>
                         </div>
                     <?php endif; ?>
-
-                    <!-- Page Content -->
                     <div class="page-content">
                         <?php the_content(); ?>
                     </div>
-
             <?php endwhile;
             endif; ?>
-
         </div>
     </div>
 </div>
-
 <?php get_footer(); ?>

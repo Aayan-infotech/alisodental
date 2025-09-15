@@ -23,7 +23,7 @@
                                 data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h1 class="elementor-heading-title elementor-size-default">
-                                        Beautiful, Healthy Smiles.<br>That's What We Do</h1>
+                                        Creating Beautiful Smiles Daily</h1>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-4f0e2dd1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="4f0e2dd1" data-element_type="section"
@@ -244,7 +243,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-c70e23c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="c70e23c" data-element_type="section"
@@ -270,7 +268,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-4501db50 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="4501db50" data-element_type="section"
@@ -501,7 +498,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-475a9aec elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="475a9aec" data-element_type="section"
@@ -573,7 +569,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-79575436 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="79575436" data-element_type="section"
@@ -748,7 +743,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-2280a93c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="2280a93c" data-element_type="section"
@@ -866,7 +860,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f47187c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f47187c" data-element_type="section"
@@ -989,7 +982,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-58ad8725 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="58ad8725" data-element_type="section"
@@ -1044,7 +1036,6 @@
                 </div>
 
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-e56f260 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-height-default"
                 data-id="e56f260" data-element_type="section"
@@ -1135,7 +1126,6 @@
                 </div>
 
             </section>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-28c1ed04 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="28c1ed04" data-element_type="section"
@@ -1199,7 +1189,6 @@
 
                 </div>
             </section>
-
             <section
                 class="elementor-section elementor-inner-section elementor-element elementor-element-1dcca968 elementor-reverse-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="1dcca968" data-element_type="section">

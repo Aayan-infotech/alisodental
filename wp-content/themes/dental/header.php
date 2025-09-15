@@ -38,32 +38,67 @@
             top: 0;
             left: 0;
             height: 100vh;
-            width: 250px;
-            background-color: #343a40;
-            padding-top: 20px;
-            color: #fff;
+            width: 260px;
+            background-color: #fff;
+            padding: 20px 15px;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            border-right: 1px solid #eee;
+        }
+
+        .sidebar img {
+            max-width: 140px;
+            margin-bottom: 20px;
         }
 
         .sidebar a {
-            color: #fff;
-            padding: 10px 20px;
+            color: #333;
+            font-size: 16px;
+            padding: 8px 0;
             text-decoration: none;
             display: block;
+            text-align: center;
+            width: 100%;
         }
 
         .sidebar a:hover {
-            background-color: #495057;
+            color: #c39a3a;
         }
 
-        /* Content Area */
+        .sidebar .social-icons {
+            display: flex;
+            margin-top: auto;
+            margin-bottom: 15px;
+        }
+
+        .sidebar .social-icons a {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #9ba4a8;
+        }
+
+        .sidebar .reserve-btn {
+            background-color: #b2d0da;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 14px;
+            padding: 12px;
+            text-align: center;
+            border-radius: 6px;
+            width: 100%;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        /* Content */
         .content {
-            margin-left: 250px;
-            padding: 20px;
+            margin-left: 260px;
+            padding: 0px;
         }
 
-        /* Hide sidebar on small screens */
+        /* Mobile */
         @media (max-width: 991px) {
             .sidebar {
                 display: none;
@@ -73,45 +108,119 @@
                 margin-left: 0;
             }
         }
+
+        .offcanvas {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .offcanvas a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+            font-size: 16px;
+        }
+
+        .offcanvas a:hover {
+            color: #c39a3a;
+        }
+
+        .offcanvas .social-icons {
+            display: flex;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .offcanvas .social-icons a {
+            margin: 0 8px;
+            font-size: 20px;
+            color: #9ba4a8;
+        }
+
+        .offcanvas .reserve-btn {
+            background-color: #b2d0da;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 14px;
+            padding: 12px;
+            text-align: center;
+            border-radius: 6px;
+            display: block;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .offcanvas-header .btn-close {
+            padding: 20px;
+        }
     </style>
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/cropped-android-chrome-512x512-5-32x32.png" sizes="32x32">
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/cropped-android-chrome-512x512-5-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/cropped-android-chrome-512x512-5-180x180.png">
+    <?php
+    if (function_exists('has_site_icon') && has_site_icon()) {
+        wp_site_icon();
+    }
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
 <body>
     <div class="sidebar d-none d-lg-flex">
-        <h4 class="text-center">My Header</h4>
-        <a href="#">Dashboard</a>
-        <a href="#">Profile</a>
-        <a href="#">Settings</a>
-        <a href="#">Logout</a>
+        <?php
+        if (function_exists('the_custom_logo') && has_custom_logo()) {
+            the_custom_logo();
+        }
+        ?>
+        <a href="<?php echo site_url(); ?>">Home</a>
+        <a href="<?php echo site_url(); ?>/about-us">About Us</a>
+        <a href="<?php echo site_url(); ?>/patient-forms">Patient Forms</a>
+        <a href="<?php echo site_url(); ?>/cosmetic-dentistry">Cosmetic Dentistry</a>
+        <a href="<?php echo site_url(); ?>/restorative-dentistry">Restorative Dentistry</a>
+        <a href="<?php echo site_url(); ?>/full-service-dentistry">Full Service Dentistry</a>
+        <a href="<?php echo site_url(); ?>/membership">Membership</a>
+        <a href="<?php echo site_url(); ?>/contact-us">Contact Us</a>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="<?php echo site_url(); ?>/contact-us" class="reserve-btn">Reserve Now</a>
     </div>
-
-    <!-- Mobile Navbar with Toggle -->
-    <nav class="navbar navbar-dark bg-dark d-lg-none">
+    <nav class="navbar bg-white shadow-sm d-lg-none">
         <div class="container-fluid">
-            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar">
-                ☰ Menu
+            <?php
+            if (function_exists('the_custom_logo') && has_custom_logo()) {
+                the_custom_logo();
+            }
+            ?>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar">
+                ☰
             </button>
-            <span class="navbar-brand mb-0 h1">My Header</span>
         </div>
     </nav>
-
-    <!-- Offcanvas for Mobile -->
-    <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="mobileSidebar">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileSidebar">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title">Menu</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            <?php
+            if (function_exists('the_custom_logo') && has_custom_logo()) {
+                the_custom_logo();
+            }
+            ?> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
-            <a href="#" class="d-block mb-2">Dashboard</a>
-            <a href="#" class="d-block mb-2">Profile</a>
-            <a href="#" class="d-block mb-2">Settings</a>
-            <a href="#" class="d-block">Logout</a>
+            <a href="<?php echo site_url(); ?>">Home</a>
+            <a href="<?php echo site_url(); ?>/about-us">About Us</a>
+            <a href="<?php echo site_url(); ?>/patient-forms">Patient Forms</a>
+            <a href="<?php echo site_url(); ?>/cosmetic-dentistry">Cosmetic Dentistry</a>
+            <a href="<?php echo site_url(); ?>/restorative-dentistry">Restorative Dentistry</a>
+            <a href="<?php echo site_url(); ?>/full-service-dentistry">Full Service Dentistry</a>
+            <a href="<?php echo site_url(); ?>/membership">Membership</a>
+            <a href="<?php echo site_url(); ?>/contact-us">Contact Us</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="<?php echo site_url(); ?>/contact-us" class="reserve-btn">Reserve Now</a>
         </div>
     </div>
-
-    <!-- Main Content -->
     <div class="content">
