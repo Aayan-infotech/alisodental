@@ -192,12 +192,16 @@
                                     data-id="fc67962" data-element_type="widget"
                                     data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <a href="https://troydentalstudio.com">
-                                            <img width="516" height="399"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/Cropped-Logo.png"
-                                                class="attachment-full size-full wp-image-706"
-                                                alt="Troy Dental Studio Logo">
+                                        <a href="<?php echo site_url(); ?>">
+                                            <?php
+                                            if (function_exists('the_custom_logo') && has_custom_logo()) {
+                                                $logo_id = get_theme_mod('custom_logo');
+                                                $logo = wp_get_attachment_image_src($logo_id, 'full');
+                                                echo '<img src="' . esc_url($logo[0]) . '" alt="logo" style="width:100px !important; height:auto;">';
+                                            }
+                                            ?>
                                         </a>
+
                                     </div>
                                 </div>
 

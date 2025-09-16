@@ -22,7 +22,7 @@
                                 data-id="63ad459b" data-element_type="widget"
                                 data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">
+                                    <h1 class="elementor-heading-title elementor-size-default text-white">
                                         Creating Beautiful Smiles Daily</h1>
                                 </div>
                             </div>
@@ -799,50 +799,39 @@
                                 data-id="5036e122" data-element_type="widget"
                                 data-widget_type="icon-list.default">
                                 <div class="elementor-widget-container">
-                                    <ul
-                                        class="elementor-icon-list-items elementor-inline-items">
-                                        <li
-                                            class="elementor-icon-list-item elementor-inline-item">
+                                    <ul class="elementor-icon-list-items elementor-inline-items"
+                                        style="display:flex; gap:20px; align-items:center; list-style:none; margin:0; padding:0;">
+
+                                        <li class="elementor-icon-list-item elementor-inline-item">
                                             <a href="">
                                                 <span class="elementor-icon-list-icon">
-                                                    <i aria-hidden="true"
-                                                        class="fal fa-arrow-circle-right"></i>
+                                                    <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Our
-                                                    Office</span>
+                                                <span class="elementor-icon-list-text"
+                                                    style="color:#c39a3a !important; text-transform:capitalize; letter-spacing:0;">
+                                                    Our Office
+                                                </span>
                                             </a>
                                         </li>
-                                        <li
-                                            class="elementor-icon-list-item elementor-inline-item">
+
+                                        <li class="elementor-icon-list-item elementor-inline-item">
                                             <a href="">
                                                 <span class="elementor-icon-list-icon">
-                                                    <i aria-hidden="true"
-                                                        class="fal fa-arrow-circle-right"></i>
+                                                    <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Contact
-                                                    Us</span>
+                                                <span class="elementor-icon-list-text"
+                                                    style="color:#c39a3a !important; text-transform:capitalize; letter-spacing:0;">
+                                                    Contact Us
+                                                </span>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
 
-                            <!-- Optional Hidden Tablet Image -->
-                            <div class="elementor-element elementor-element-63808169 elementor-hidden-tablet elementor-widget elementor-widget-image"
-                                data-id="63808169" data-element_type="widget"
-                                data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <img loading="lazy" decoding="async" width="800"
-                                        height="450" src="<?php echo get_template_directory_uri(); ?>/assets/images/Dental-Exam-Room.png"
-                                        class="attachment-large size-large wp-image-375"
-                                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/Dental-Exam-Room.png 1445w, <?php echo get_template_directory_uri(); ?>/assets/images/Dental-Exam-Room-1200x675.png 1200w, <?php echo get_template_directory_uri(); ?>/assets/images/Dental-Exam-Room-800x450.png 800w"
-                                        sizes="(max-width: 800px) 100vw, 800px" alt="">
-                                </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </section>
             <section
@@ -923,7 +912,7 @@
                                                     <i aria-hidden="true"
                                                         class="fal fa-arrow-circle-right"></i>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Learn
+                                                <span class="elementor-icon-list-text" style="color:#c39a3a !important; text-transform:capitalize; letter-spacing:0;">Learn
                                                     More</span>
                                             </a>
                                         </li>
@@ -935,7 +924,7 @@
                                                         class="fal fa-arrow-circle-right"></i>
                                                 </span>
                                                 <span
-                                                    class="elementor-icon-list-text">Testimonials</span>
+                                                    class="elementor-icon-list-text" style="color:#c39a3a !important; text-transform:capitalize; letter-spacing:0;">Testimonials</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -1588,7 +1577,7 @@
                                                 <span class="elementor-icon-list-icon"><i
                                                         aria-hidden="true"
                                                         class="fal fa-arrow-circle-right"></i></span>
-                                                <span class="elementor-icon-list-text">Contact
+                                                <span class="elementor-icon-list-text" style="color:#c39a3a !important; text-transform:capitalize; letter-spacing:0; margin-right: 30px;">Contact
                                                     Our Office</span>
                                             </a>
                                         </li>
