@@ -387,7 +387,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="https://troydentalstudio.com/contact-us/">
+                                                            href="contact-us">
                                                             <span
                                                                 class="elementor-button-content-wrapper">
                                                                 <span
@@ -460,7 +460,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="https://troydentalstudio.com/contact-us/">
+                                                            href="contact-us">
                                                             <span
                                                                 class="elementor-button-content-wrapper">
                                                                 <span

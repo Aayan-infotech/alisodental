@@ -1,0 +1,17 @@
+# robots.txt for Aliso Dental Care
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /cgi-bin/
+Allow: /wp-admin/admin-ajax.php
+
+# Block search result pages
+Disallow: /?s=
+
+# Sitemap location (replace with your actual domain)
+Sitemap: https://alisodental.com/sitemap_index.xml

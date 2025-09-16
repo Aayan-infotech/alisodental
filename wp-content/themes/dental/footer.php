@@ -115,7 +115,7 @@
                                                     <div class="elementor-widget-container">
                                                         <h2
                                                             class="elementor-heading-title elementor-size-default">
-                                                            The Art of Dentistry With</h2>
+                                                            Dentistry: The Art of The Art.</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -130,8 +130,8 @@
                                                     data-id="5e43e44" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        <img width="612" height="399"
-                                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/Troy-logo-2021-lighter-gray-1.png"
+                                                        <img style="width:70px;"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/Aliso-Dental-logo.png"
                                                             class="attachment-large size-large wp-image-711"
                                                             alt="Troy Logo">
                                                     </div>
@@ -192,16 +192,12 @@
                                     data-id="fc67962" data-element_type="widget"
                                     data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <a href="<?php echo site_url(); ?>">
-                                            <?php
-                                            if (function_exists('the_custom_logo') && has_custom_logo()) {
-                                                $logo_id = get_theme_mod('custom_logo');
-                                                $logo = wp_get_attachment_image_src($logo_id, 'full');
-                                                echo '<img src="' . esc_url($logo[0]) . '" alt="logo" style="width:100px !important; height:auto;">';
-                                            }
-                                            ?>
+                                        <a href="#">
+                                            <img style="width:100px;"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/Aliso-Dental-logo.png"
+                                                class="attachment-full size-full wp-image-706"
+                                                alt="Alisodental Logo">
                                         </a>
-
                                     </div>
                                 </div>
 
@@ -213,7 +209,7 @@
                                             role="list">
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-google"
-                                                    href="https://www.google.com/maps/place/Troy+Dental+Studio"
+                                                    href="#"
                                                     target="_blank">
                                                     <span
                                                         class="elementor-screen-only">Google</span>
@@ -222,7 +218,7 @@
                                             </span>
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook"
-                                                    href="https://www.facebook.com/troydentalstudio/"
+                                                    href="https://www.facebook.com"
                                                     target="_blank">
                                                     <span
                                                         class="elementor-screen-only">Facebook</span>
@@ -231,7 +227,7 @@
                                             </span>
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram"
-                                                    href="https://www.instagram.com/troydentalstudio/?hl=en"
+                                                    href="https://www.instagram.com"
                                                     target="_blank">
                                                     <span
                                                         class="elementor-screen-only">Instagram</span>
@@ -302,12 +298,12 @@
                                                             <li
                                                                 class="elementor-icon-list-item">
                                                                 <a
-                                                                    href="mailto:Info@troydentalstudio.com">
+                                                                    href="mailto:info@alisodentalcare.com">
                                                                     <span
                                                                         class="elementor-icon-list-icon"><i
                                                                             class="fas fa-envelope"></i></span>
                                                                     <span
-                                                                        class="elementor-icon-list-text">Info@troydentalstudio.com</span>
+                                                                        class="elementor-icon-list-text">info@alisodentalcare.com</span>
                                                                 </a>
                                                             </li>
                                                         </ul>
