@@ -724,7 +724,7 @@
                             <div class="mission-images">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp"
                                     alt="Exam Hallway" class="img-fluid rounded mb-3 shadow">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner3.JPG"
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner3.jpg"
                                     alt="Exam Room" class="img-fluid rounded shadow">
                             </div>
                         </div>
