@@ -86,7 +86,7 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Exam-Hallway-1.png');">
+            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp');">
                 <div class="overlay"></div>
                 <div class="hero-content">
                     <div class="heading-strip-full">
@@ -96,12 +96,12 @@
             </section>
             <section class="visit-section py-5 text-center">
                 <div class="container">
-                    <h2 class="section-title">Streamline Your Visit With Our Office</h2>
+                    <h2 class="section-title">Smooth, Stress-Free Appointments</h2>
                     <p class="section-text">
-                        We recognize that our patients are unique individuals with specific needs. With every patient that walks into our office, we look to build a trusting relationship that will last a lifetime. We look forward to welcoming you to our dental family. At our office, you will always be greeted with a smile and treated with utmost dignity and respect.
+                       We understand that every patient is unique, with individual needs and concerns. Our goal is to build lasting relationships based on trust, care, and respect. From the moment you walk through our doors, you’ll be welcomed with a smile and treated with the dignity and compassion you deserve. We look forward to making you a part of our dental family.
                     </p>
                     <p class="section-text">
-                        Please complete the patient registration via the link below. For any questions or concerns, please call our office.
+                        Please complete your patient registration using the link below. If you have any questions or need assistance, our team will be happy to help—just give us a call.
                     </p>
                     <a href="#" class="btn custom-btn mt-3">Patient Registration</a>
                 </div>

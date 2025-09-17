@@ -85,3 +85,4 @@ function mytheme_enqueue_assets()
     wp_enqueue_script('font-awesome-pro', get_template_directory_uri() . '/assets/js/afa87b2d0b.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue_assets');
+

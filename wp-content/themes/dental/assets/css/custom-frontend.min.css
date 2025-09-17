@@ -10057,3 +10057,7 @@ body.elementor-page .elementor-widget-menu-anchor {
     height: var(--e-rating-icon-font-size);
     fill: var(--e-rating-icon-color)
 }
+.gallery-img-custom{
+    width: 100%;
+    height: 330px !important;
+}

@@ -1296,7 +1296,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1656761107.jpg"
                                             data-bs-title="TV in Waiting Room">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1656761107.jpg"
-                                                class="img-fluid rounded shadow-sm" alt="TV in Waiting Room">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom"  alt="TV in Waiting Room">
                                         </a>
                                     </div>
 
@@ -1307,7 +1307,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
                                             data-bs-title="Interior Office">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
-                                                class="img-fluid rounded shadow-sm" alt="Interior Office">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Interior Office">
                                         </a>
                                     </div>
 
@@ -1318,7 +1318,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p1.webp"
                                             data-bs-title="Build Your Confidence">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p1.webp"
-                                                class="img-fluid rounded shadow-sm" alt="Build Your Confidence">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Build Your Confidence">
                                         </a>
                                     </div>
 
@@ -1332,7 +1332,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/Amenities.png"
                                             data-bs-title="Your Comfort">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Amenities.png"
-                                                class="img-fluid rounded shadow-sm" alt="Your Comfort">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Your Comfort">
                                         </a>
                                     </div>
 
@@ -1343,7 +1343,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp"
                                             data-bs-title="Waiting Room">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp"
-                                                class="img-fluid rounded shadow-sm" alt="Waiting Room">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Waiting Room">
                                         </a>
                                     </div>
                                     <!-- Gallery Item 6 -->
@@ -1353,7 +1353,7 @@
                                             data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p6.jpeg"
                                             data-bs-title="Waiting Room">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p6.jpeg"
-                                                class="img-fluid rounded shadow-sm" alt="Waiting Room">
+                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Waiting Room">
                                         </a>
                                     </div>
 

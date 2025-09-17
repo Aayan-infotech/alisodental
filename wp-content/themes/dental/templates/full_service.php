@@ -133,7 +133,7 @@
     }
 
     .cosmetic-care-section {
-        background-image: url('https://troydentalstudio.com/wp-content/uploads/sites/360/2021/03/Waiting-Room-C.png');
+        background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-C.png');
         background-size: cover;
         background-position: center;
         position: relative;
@@ -193,10 +193,10 @@
                 <div class="container py-4">
                     <div class="row">
                         <div class="col-md-6 mb-4 mb-lg-0 pe-5">
-                            <p class="subheading">THE STRONGEST FOUNDATION FOR A SMILE</p>
+                            <p class="subheading">Your Smile’s Strongest Support</p>
                             <h2 class="main-heading">True Dedicated Care</h2>
                             <p class="description">
-                                Your periodontal care is our utmost priority. We understand that you cannot have a beautiful smile without having a healthy smile. That is why we provide a full range of dental services to ensure that your smile stays healthy for years to come.
+                                We prioritize your periodontal health because a truly beautiful smile begins with a strong, healthy foundation. Our comprehensive dental services are designed to keep your gums and teeth healthy, ensuring your smile stays vibrant and confident for years to come.
                             </p>
                             <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
@@ -212,7 +212,7 @@
                     <!-- Section Title -->
                     <h2 class="display-5 fw-light mb-3">Full Service Dentistry</h2>
                     <p class="lead mb-5">
-                        Through intensive training, we are always able to offer you a wide range of modern dentistry to the highest standards. Below are just some of the many procedures and services we regularly provide to our patients – with a gentle touch, and stunning results.
+                        With advanced training and expertise, we provide a wide range of contemporary dental treatments at the highest standards. From routine care to specialized procedures, we deliver gentle, precise treatment that leaves you with healthy teeth and stunning results.
                     </p>
 
                     <?php

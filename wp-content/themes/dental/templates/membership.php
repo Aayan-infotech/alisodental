@@ -194,11 +194,11 @@
                                 <p class="mb-1">
                                     Kids under 3 years can enroll in the Youth membership for free when a parent or guardian enrolls in an Adult membership.
                                 </p>
-                                <h6 class="fw-bold mt-3">TROY DENTAL STUDIO</h6>
+                                <h6 class="fw-bold mt-3">Aliso dental</h6>
                                 <p class="mb-0">
                                     248-362-1100 |
-                                    <a href="https://www.TroyDentalStudio.com" class="text-white text-decoration-underline">
-                                        www.TroyDentalStudio.com
+                                    <a href="#" class="text-white text-decoration-underline">
+                                        www.alisodental.com
                                     </a>
                                 </p>
                                 <p>3960 Crooks Rd., Ste 100, Troy, Michigan, 48084</p>

@@ -7,15 +7,15 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Exam-Hallway-1.png'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; padding: 60px 0;">
+            <section style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; padding: 60px 0;">
                 <div class="container bg-white text-center py-5 px-4 rounded shadow" style="max-width: 900px;">
 
-                    <h2 class="display-5 fw-light mb-3" style="color: #a0c0cd;">Contact Troy Dental Studio</h2>
+                    <h2 class="display-5 fw-light mb-3" style="color: #a0c0cd;">Contact Aliso Dental</h2>
 
-                    <p class="fw-bold text-warning mb-1" style="letter-spacing: 1px;">CALL US: (248) 362-1100</p>
+                    <p class="fw-bold text-warning mb-1" style="letter-spacing: 1px;">CALL US: (949) 448-0274</p>
                     <p class="fw-bold text-dark mb-1">FAX: 248-362-2324</p>
                     <p class="text-uppercase fw-bold text-dark mb-4" style="letter-spacing: 2px;">
-                        Location: 3960 Crooks Rd Suite 100, Troy, MI 48084
+                        Location: 15 Mareblu #380, Aliso Viejo, CA 92656,
                     </p>
 
                     <a href="#patient-registration" class="btn btn-light text-uppercase px-4 py-2 fw-semibold mb-4" style="background-color: #a0c0cd; color: white; letter-spacing: 1px;">

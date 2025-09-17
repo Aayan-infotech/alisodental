@@ -133,7 +133,7 @@
     }
 
     .cosmetic-care-section {
-        background-image: url('https://troydentalstudio.com/wp-content/uploads/sites/360/2021/03/Waiting-Room-C.png');
+        background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-C.png');
         background-size: cover;
         background-position: center;
         position: relative;
@@ -192,18 +192,18 @@
                 <div class="container py-4">
                     <div class="row">
                         <div class="col-md-6 mb-4 mb-lg-0 pe-5">
-                            <p class="subheading">A Gorgeous New Smile For You</p>
-                            <h2 class="main-heading">Customized Treatment</h2>
+                            <p class="subheading">Discover the Beauty of Your Smile</p>
+                            <h2 class="main-heading">Tailored Treatment Plans</h2>
                             <p class="description">
-                                At <a href="#">Troy Dental Studio</a>, our goal is to create a warm and inviting atmosphere for the entire family. In addition to our up-to-date treatment options, Dr. Batra and staff aim to provide an exceptional and professional patient experience for every patient that visits our Cosmetic Dentist Office in Troy, MI.
+                                At <a href="#">Aliso Dental</a>,we strive to create a warm, welcoming environment for the whole family. Along with offering the latest in modern treatment options, Dr. Silvia Vallis and our caring team are dedicated to providing every patient with an exceptional, professional, and truly comfortable experience at our cosmetic dental office in Troy, MI.
                             </p>
                             <p class="description">
-                                Apart from serving our patients with efficient Cosmetic Dentistry, we stay connected with our patients to check up on the Cosmetic Dental Care provided by us. As a highly preferred Cosmetic and Implant Dentistry Office in Troy, MI, we ensure our patients are not facing oral pain or problems.
+                               Beyond providing advanced cosmetic dentistry, we make it a priority to stay connected with our patients, following up on the care they receive. As one of the most trusted cosmetic and implant dentistry offices in Troy, MI, we are committed to ensuring our patients remain healthy, comfortable, and free from oral pain or concerns.
                             </p>
                             <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/04/shutterstock_658945084.jpg" alt="Smiling couple by the water" class="img-fluid rounded shadow-sm">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img.jpg" width="80%" alt="Smiling couple by the water" class="img-fluid rounded shadow-sm">
                         </div>
                     </div>
                 </div>
@@ -212,11 +212,9 @@
             <section class="cosmetic-care-section py-5 text-center text-white">
                 <div class="overlay"></div>
                 <div class="container position-relative">
-                    <h2 class="display-5 fw-light mb-3">Individualized Cosmetic Care</h2>
+                    <h2 class="display-5 fw-light mb-3">Personalized Cosmetic Dentistry</h2>
                     <p class="lead mb-5">
-                        Through intensive training, we are always able to offer you a wide range of modern dentistry to the highest standards.
-                        Below are just some of the many procedures and services we regularly provide to our patients – with a gentle touch,
-                        and stunning results.
+                       With extensive training and expertise, we provide a wide range of modern dental treatments delivered to the highest standards. Below are just a few of the many services we offer, all performed with a gentle touch and beautiful, lasting results.
                     </p>
                     <?php
                     $args = array(
@@ -268,7 +266,7 @@
 
             <section class="py-5 bg-light" id="advanced-technology">
                 <div class="container">
-                    <h2 class="text-center mb-5">All Cosmetic Treatment Options</h2>
+                    <h2 class="text-center mb-5">Comprehensive Cosmetic Dentistry</h2>
                     <?php
                     $args = array(
                         'post_type'      => 'services',
@@ -319,11 +317,9 @@
             <section class="cosmetic-care-section py-5 text-center text-white">
                 <div class="overlay"></div>
                 <div class="container position-relative">
-                    <h2 class="display-5 fw-light mb-3">We Offer Aesthetic Services For Your Needs</h2>
+                    <h2 class="display-5 fw-light mb-3">Customized Smile & Facial Treatments</h2>
                     <p class="lead mb-5">
-                        Through intensive training, we are always able to offer you a wide range of modern dentistry to the highest standards.
-                        Below are just some of the many procedures and services we regularly provide to our patients – with a gentle touch,
-                        and stunning results.
+                       With extensive training and expertise, we provide a wide range of modern dental treatments delivered to the highest standards. Below are just a few of the many services we offer—performed with a gentle touch and designed to achieve beautiful, lasting results.
                     </p>
                     <?php
                     $args = array(

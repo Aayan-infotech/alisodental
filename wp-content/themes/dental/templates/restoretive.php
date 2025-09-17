@@ -133,7 +133,7 @@
     }
 
     .cosmetic-care-section {
-        background-image: url('https://troydentalstudio.com/wp-content/uploads/sites/360/2021/03/Waiting-Room-C.png');
+        background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-C.png');
         background-size: cover;
         background-position: center;
         position: relative;
@@ -192,12 +192,12 @@
                 <div class="container py-4">
                     <div class="row">
                         <div class="col-md-6 mb-4 mb-lg-0 pe-5">
-                            <p class="subheading">IT’S ABOUT MORE THAN YOUR TEETH</p>
-                            <h2 class="main-heading">The Process Is About You</h2>
+                            <p class="subheading">It’s About Your Complete Smile</p>
+                            <h2 class="main-heading">Focused on You Every Step</h2>
                             <p class="description">
-                                At Troy Dental Studio, our goal is to create a warm and inviting atmosphere for the entire family. In addition to our up-to-date treatment options, Dr. Batra and staff aim to provide an exceptional and professional patient experience for every patient who visits our Restorative Dentistry Office. </p>
-                            <p class="description">
-                                We provide Restorative Dentistry Treatments in Troy, which involve restoring damaged oral structures, tooth decay, cracked teeth, and infected gums. Our Smile Restoration Services include procedures related to tooth fillings, bridging gaps, implants, and more. Book an appointment for a consultation with our experts for Implant Restoration Services in Troy.
+                                 At Aliso Dental, we strive to create a welcoming and comfortable environment for the whole family. Along with offering the latest dental treatments, Dr. Silvia Vallis and our team are committed to providing every patient with a professional, caring, and exceptional experience in our Restorative Dentistry office.                            
+                                 <p class="description">
+                               We provide Restorative Dentistry to repair damaged teeth, treat tooth decay, fix cracks, and care for gums. Our services include tooth fillings, bridges, implants, and more. Book a consultation with our experts for personalized implant and smile restoration solutions.
                             </p>
                             <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
@@ -212,9 +212,9 @@
                 <div class="overlay"></div>
                 <div class="container position-relative">
                     <!-- Section Title -->
-                    <h2 class="display-5 fw-light mb-3">Restorative Dentistry</h2>
+                    <h2 class="display-5 fw-light mb-3">Restore Your Smile</h2>
                     <p class="lead mb-5">
-                        Through intensive training, we are always able to offer you a wide range of modern dentistry to the highest standards. Below are just some of the many procedures and services we regularly provide to our patients – with a gentle touch, and stunning results.
+                        With advanced training and experience, we proudly offer a wide range of cutting-edge dental treatments delivered to the highest standards. From routine care to specialized procedures, every service is provided with precision, a gentle touch, and results you’ll love.
                     </p>
                     <?php
                     $args = array(
@@ -233,7 +233,7 @@
                                 'terms'    => 'restorative-dentistry',
                             ),
                         ),
-                    );
+                    );      
                     $query = new WP_Query($args);
 
                     if ($query->have_posts()) : ?>

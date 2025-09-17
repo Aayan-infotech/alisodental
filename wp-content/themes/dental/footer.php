@@ -28,7 +28,7 @@
                                     <div class="elementor-widget-container">
                                         <h2
                                             class="elementor-heading-title elementor-size-default">
-                                            The Gentle Dental Experience</h2>
+                                            Dentistry with a Gentle Touch</h2>
                                     </div>
                                 </div>
 
@@ -52,19 +52,19 @@
                                                                 class="elementor-testimonial__content">
                                                                 <div
                                                                     class="elementor-testimonial__text">
-                                                                  Discover what our patients call an amazing experience. We are dedicated to gentle, pain-free, and deeply attentive care, tailored to your every need.
+                                                                  Experience what our patients describe as truly exceptional care. We are committed to gentle, pain-free, and personalized dental treatments designed to meet your unique needs.
                                                                 </div>
                                                             </div>
                                                             <div
                                                                 class="elementor-testimonial__footer">
                                                                 <cite
                                                                     class="elementor-testimonial__cite">
-                                                                    <span
+                                                                    <!-- <span
                                                                         class="elementor-testimonial__name">Stephanie
                                                                         N.</span>
                                                                     <span
                                                                         class="elementor-testimonial__title">March
-                                                                        2021</span>
+                                                                        2021</span> -->
                                                                 </cite>
                                                             </div>
                                                         </div>

@@ -514,7 +514,8 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp');">
+            <section class="hero-section"
+                style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp');">
                 <div class="overlay"></div>
                 <div class="hero-content">
                     <div class="heading-strip-full">
@@ -528,7 +529,7 @@
 
                     <!-- Left Column: Image -->
                     <div class="doctor-image">
-                        <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/07/Batra-Troy.jpg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Batra-Troy.jpg"
                             alt="Dr. Silvia Vallis" width="252" height="356">
                     </div>
 
@@ -537,13 +538,16 @@
                         <h2 class="doctor-name">Dr. Silvia Vallis</h2>
                         <h3 class="doctor-title" style="color: #f4b321;">General &amp; Cosmetic Dentist</h3>
                         <div class="doctor-bio">
-                            <p>Founded in 1999 by Dr. Silvia Vallis, Aliso Dental Care has been serving the Orange County community with comprehensive dental solutions.
+                            <p>Founded in 1999 by Dr. Silvia Vallis, Aliso Dental Care has been serving the Orange
+                                County community with comprehensive dental solutions.
 
-State-of-the-Art
-We utilize the latest dental technology to ensure effective treatments and exceptional results for our patients.
+                                State-of-the-Art
+                                We utilize the latest dental technology to ensure effective treatments and exceptional
+                                results for our patients.
 
-Patient Comfort
-Our dedicated team prioritizes your comfort, making every visit a pleasant and tailored experience.</p>
+                                Patient Comfort
+                                Our dedicated team prioritizes your comfort, making every visit a pleasant and tailored
+                                experience.</p>
 
                             <p>She truly believes that teeth whitening, crowns, and
                                 veneers are also a significant part of achieving “the
@@ -563,26 +567,34 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                 <div class="practice-container">
                     <!-- Left Column (Text) -->
                     <div class="practice-text">
-                        <h2 class="subtitle">Welcome To Our Practice</h2>
-                        <h1 class="title">A Soothing & Relaxing Environment</h1>
+                        <h2 class="subtitle">Experience Compassionate Dentistry</h2>
+                        <h1 class="title">Where Relaxation Meets Dentistry</h1>
                         <p>
-                            Troy Dental Studio has 11 treatment areas, designed the office to represent a soothing and relaxing environment – not often experienced in “traditional” dental offices.
+                            Aliso Dental features 11 modern treatment areas, thoughtfully designed to create a soothing
+                            and relaxing environment – a refreshing experience compared to traditional dental offices.
                         </p>
                         <p>
-                            Our goal is to encourage nervous and anxious patients to relax and enjoy their “experience”. We offer built-in massages in her dental chairs, complimentary paraffin wax hand treatment and a high end coffee barista bar – full with cappuccinos and lattes and all the accompaniments.
-                        </p>
+                            Our goal is to help even the most nervous and anxious patients feel at ease and truly enjoy
+                            their visit. To enhance your comfort, we offer built-in massage dental chairs, complimentary
+                            paraffin wax hand treatments, and a high-end barista station serving cappuccinos, lattes,
+                            and more. </p>
                         <p>
-                            Our office is accepting new patients. Although we receive many referrals from excellent dentists, we also encourage and accept direct referrals from our loyal patients of record and others who have heard about us through “word of mouth” referrals. Please call us to schedule a complimentary appointment.
-                        </p>
+                            We are happily accepting new patients! While many of our patients come to us through
+                            referrals from trusted dentists, we also warmly welcome direct referrals from our loyal
+                            patients and those who’ve heard about us through word of mouth. Call today to schedule your
+                            complimentary appointment. </p>
                         <p class="quote">
-                            “We establish and maintain a personal relationship with all of our clients. Most big corporate practices have compromised this art – but we believe that this aspect of our practice is paramount.”
-                            <span>– Dr. Batra</span>
+                            “We value building genuine, lasting relationships with every patient we care for. Unlike
+                            large corporate practices, we never compromise on this personal connection—because to us,
+                            it’s at the heart of exceptional dentistry.”
+                            <span>– Dr. Silvia Vallis</span>
                         </p>
                     </div>
 
                     <!-- Right Column (Image) -->
                     <div class="practice-image">
-                        <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/Waiting-Room-and-Desk.jpg" alt="Clinic Interior">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
+                            alt="Clinic Interior">
                     </div>
                 </div>
             </section>
@@ -592,17 +604,27 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                     <div class="row align-items-center">
                         <!-- Text Column -->
                         <div class="col-lg-7 order-lg-2 mb-4 mb-lg-0 tds-practice-text">
-                            <h2 class="tds-practice-title">Facial Esthetic Treatments</h2>
-                            <h3 class="tds-practice-subtitle">Extensively Trained &amp; Certified</h3>
+                            <h2 class="tds-practice-title">Advanced Facial Rejuvenation</h2>
+                            <h3 class="tds-practice-subtitle">Expertly Trained &amp; Professionals</h3>
                             <p>
-                                Troy Dental Studio is determined to set itself apart. “… To think outside of the box.”
-                                In addition to all general dental services, Dr. Batra who specializes in cosmetic
-                                dental procedures also offers “spa” services in her practice.
+                                Aliso Dental is committed to setting itself apart by thinking outside the box. Along
+                                with providing comprehensive general dental services, Dr. Silvia Vallis—an expert in
+                                cosmetic
+                                dentistry—also offers unique ‘spa-like’ treatments, creating a truly elevated dental
+                                experience.
                             </p>
                             <p>
-                                Many years ago, we experienced patients-who invested in a great new smile would notice their lip lines or simply wanted “fuller lips” to show off a –now- beautiful result. As a student and educator at the University Of Pennsylvania School Of Dental Medicine, the one important thing I learned and taught was always to listen to your audience. Who knows more about head and neck anatomy than I do? As a result, my team and I, invested in extensive training through the American Academy of Facial Esthetics to achieve and accommodate the cosmetic and functional (Botox to treat TMJ pain) requests of our patients. We are dedicated to stay on the “cutting edge” by continuing our education and training in this “out of the box” form of facial esthetic treatment.
+                                Years ago, we noticed that many patients who invested in a beautiful new smile also
+                                desired enhancements such as fuller lips or smoother lip lines to complement their
+                                results. During my time as both a student and educator at the University of Pennsylvania
+                                School of Dental Medicine, I learned the importance of truly listening to patients’
+                                needs. With extensive knowledge of head and neck anatomy, my team and I pursued advanced
+                                training through the American Academy of Facial Esthetics to address both cosmetic and
+                                functional concerns—including Botox treatments for TMJ pain. We remain dedicated to
+                                staying at the forefront of care by continually advancing our education in this
+                                innovative field of facial aesthetics.
                             </p>
-                            <a href="#" class="tds-practice-btn">Contact Us To Learn More</a>
+                            <a href="#" class="tds-practice-btn">Contact Us</a>
                         </div>
 
                         <!-- Image Column -->
@@ -622,9 +644,11 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                         <div class="col-12">
                             <h2 class="mission-title">Our Mission</h2>
                             <p class="mission-intro">
-                                Troy Dental Studio utilizes an evidence-based approach to comprehensive dental treatment.
-                                In addition to incorporating the latest in dental technology, Dr. Batra and highly-qualified
-                                staff are here to ensure a satisfying, professional, and streamlined patient experience.
+                                Aliso Dental takes an evidence-based approach to comprehensive care. By combining the
+                                latest advancements in dental technology with the expertise of Dr. Silvia Vallis and our
+                                highly
+                                skilled team, we ensure every patient enjoys a professional, seamless, and rewarding
+                                experience.
                             </p>
                         </div>
                     </div>
@@ -639,8 +663,9 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                                     <h5 class="info-title">New Patient Forms</h5>
                                 </div>
                                 <p class="info-text">
-                                    <a href="https://patientviewer.com/WebFormsGWT/GWT/WebForms/WebForms.html?DOID=51961&amp;RKID=16655&amp;WSDID=77833&amp;NFID=88108&amp;NFID=96394&amp;NFID=96397" target="_blank" rel="noopener">
-                                        Streamline your visit to Troy Dental Studio by completing our online patient registration.
+                                    <a href="#" target="_blank" rel="noopener">
+                                        Streamline your visit to Aliso dental by completing our online patient
+                                        registration.
                                         For any questions or concerns, please call our office.
                                     </a>
                                 </p>
@@ -653,8 +678,9 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                                     <h5 class="info-title">New Patient Forms</h5>
                                 </div>
                                 <p class="info-text">
-                                    <a href="https://patientviewer.com/WebFormsGWT/GWT/WebForms/WebForms.html?DOID=51961&amp;RKID=16655&amp;WSDID=77833&amp;NFID=88108&amp;NFID=96394&amp;NFID=96397" target="_blank" rel="noopener">
-                                        Streamline your visit to Troy Dental Studio by completing our online patient registration.
+                                    <a href="#" target="_blank" rel="noopener">
+                                        Streamline your visit to Aliso dental by completing our online patient
+                                        registration.
                                         For any questions or concerns, please call our office.
                                     </a>
                                 </p>
@@ -667,8 +693,9 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                                     <h5 class="info-title">New Patient Forms</h5>
                                 </div>
                                 <p class="info-text">
-                                    <a href="https://patientviewer.com/WebFormsGWT/GWT/WebForms/WebForms.html?DOID=51961&amp;RKID=16655&amp;WSDID=77833&amp;NFID=88108&amp;NFID=96394&amp;NFID=96397" target="_blank" rel="noopener">
-                                        Streamline your visit to Troy Dental Studio by completing our online patient registration.
+                                    <a href="#" target="_blank" rel="noopener">
+                                        Streamline your visit to Aliso dental by completing our online patient
+                                        registration.
                                         For any questions or concerns, please call our office.
                                     </a>
                                 </p>
@@ -681,8 +708,9 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                                     <h5 class="info-title">New Patient Forms</h5>
                                 </div>
                                 <p class="info-text">
-                                    <a href="https://patientviewer.com/WebFormsGWT/GWT/WebForms/WebForms.html?DOID=51961&amp;RKID=16655&amp;WSDID=77833&amp;NFID=88108&amp;NFID=96394&amp;NFID=96397" target="_blank" rel="noopener">
-                                        Streamline your visit to Troy Dental Studio by completing our online patient registration.
+                                    <a href="#" target="_blank" rel="noopener">
+                                        Streamline your visit to Aliso dental by completing our online patient
+                                        registration.
                                         For any questions or concerns, please call our office.
                                     </a>
                                 </p>
@@ -694,8 +722,10 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                         <!-- Right Column: Images -->
                         <div class="col-lg-6">
                             <div class="mission-images">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp" alt="Exam Hallway" class="img-fluid rounded mb-3 shadow">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/Exam-Room.png" alt="Exam Room" class="img-fluid rounded shadow">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp"
+                                    alt="Exam Hallway" class="img-fluid rounded mb-3 shadow">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner3.JPG"
+                                    alt="Exam Room" class="img-fluid rounded shadow">
                             </div>
                         </div>
                     </div>
@@ -706,94 +736,42 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                 <div class="container">
                     <h2 class="text-center mb-5">Advanced Technology</h2>
                     <div class="row g-4">
+                        <?php
+                        $args = array(
+                            'post_type' => 'technology',
+                            'posts_per_page' => -1, // all technologies
+                        );
 
-                        <!-- Card Example -->
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        $tech_query = new WP_Query($args);
 
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
+                        if ($tech_query->have_posts()):
+                            while ($tech_query->have_posts()):
+                                $tech_query->the_post(); ?>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
+                                        <?php if (has_post_thumbnail()): ?>
+                                            <img src="<?php the_post_thumbnail_url('full'); ?>" class="w-100 rounded-top"
+                                                alt="<?php the_title(); ?>">
+                                        <?php endif; ?>
+                                        <div class="p-3">
+                                            <h5 class="text-capitalize text-primary fw-semibold mb-2"
+                                                style="letter-spacing: 0; word-spacing: 0;"><?php the_title(); ?></h5>
+                                            <p class="card-text fw-normal text-muted mb-2">
+                                                <?php the_excerpt(); ?>
+                                            </p>
+                                            <a href="<?php the_permalink(); ?>"
+                                                class="text-warning text-decoration-none small fw-bold">
+                                                Read More »
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-card bg-white rounded overflow-hidden h-100 border-0">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/vizilite-oral-cancer-screening.jpg" class="w-100 rounded-top" alt="Oral Cancer Screening">
-                                <div class="p-3">
-                                    <h5 class="text-capitalize text-primary fw-semibold mb-2" style="letter-spacing: 0; word-spacing: 0;">Oral Cancer Screening</h5>
-                                    <p class="card-text fw-normal text-muted mb-2">
-                                        ViziLite is an advanced oral screening tool used to identify abnormal cells along the mucous membranes in the mouth and throat. The test takes approximately
-                                    </p>
-                                    <a href="https://troydentalstudio.com/technology/vizilite-oral-cancer-screening/" class="text-warning text-decoration-none small fw-bold">
-                                        Read More »
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                            <?php endwhile;
+                            wp_reset_postdata();
+                        endif;
+                        ?>
                     </div>
+
                 </div>
             </section>
 
@@ -802,86 +780,39 @@ Our dedicated team prioritizes your comfort, making every visit a pleasant and t
                 <p class="section-subtitle">Patients Love Our Approach To Dental Care</p>
 
                 <div class="row g-4 justify-content-center">
-                    <!-- Testimonial 1 -->
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
+                    <?php
+                    $args = array(
+                        'post_type' => 'testimonial', // Custom Post Type name
+                        'posts_per_page' => 6,
+                        'orderby' => 'date',
+                        'order' => 'DESC'
+                    );
+                    $testimonial_query = new WP_Query($args);
 
-                    <!-- Testimonial 2 -->
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                    if ($testimonial_query->have_posts()):
+                        while ($testimonial_query->have_posts()):
+                            $testimonial_query->the_post();
+                            $client_name = get_field('client_name'); 
+                            ?>
+                            <div class="col-md-6">
+                                <div class="testimonial mx-auto">
+                                    <h5 style="letter-spacing: 0; word-spacing: 0;">“<?php the_title(); ?>”</h5>
+                                    <p><?php the_content(); ?></p>
+                                    <?php if ($client_name): ?>
+                                        <p><em><?php echo esc_html($client_name); ?></em></p>
+                                    <?php endif; ?>
+                                </div>
                             </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="testimonial mx-auto">
-                            <div class="stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h5 style="letter-spacing: 0; word-spacing: 0;">“Friendly &amp; Professional”</h5>
-                            <p>My first impressions here was all positive. The staff was friendly and professional. The office was clean and very modern. The dentist was very kind and gentle. She got right down to business and got me on the road to a healthy smile. I would very much recommend Troy Dental Studio to anyone looking for a new dentist!!</p>
-                            <p><em>Jeremy Mullen</em></p>
-                        </div>
-                    </div>
+                            <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    else:
+                        echo '<p>No testimonials found.</p>';
+                    endif;
+                    ?>
                 </div>
+
+
             </section>
         </div>
     </div>
