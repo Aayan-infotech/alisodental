@@ -514,11 +514,11 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Exam-Hallway-1.png');">
+            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp');">
                 <div class="overlay"></div>
                 <div class="hero-content">
                     <div class="heading-strip-full">
-                        <h1 class="elementor-heading-title">You Deserve a Beautiful Smile</h1>
+                        <h1 class="elementor-heading-title">Bringing Confidence to Every Smile</h1>
                     </div>
                 </div>
             </section>
@@ -529,27 +529,21 @@
                     <!-- Left Column: Image -->
                     <div class="doctor-image">
                         <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/07/Batra-Troy.jpg"
-                            alt="Dr. Shikha Batra" width="252" height="356">
+                            alt="Dr. Silvia Vallis" width="252" height="356">
                     </div>
 
                     <!-- Right Column: Content -->
                     <div class="doctor-content">
-                        <h2 class="doctor-name">Dr. Shikha Batra</h2>
+                        <h2 class="doctor-name">Dr. Silvia Vallis</h2>
                         <h3 class="doctor-title" style="color: #f4b321;">General &amp; Cosmetic Dentist</h3>
                         <div class="doctor-bio">
-                            <p>Dr. Shikha Batra graduated from an Ivy League program at
-                                the University of Pennsylvania School of Dental Medicine
-                                in 1997. She continued her training, for another year,
-                                in a highly intensive hospital residency training
-                                program at Thomas Jefferson University. This training
-                                has enabled her to treat all facets of dentistry
-                                efficiently, effectively, and thoroughly. Dr. Batra also
-                                has teaching experience, as an associate professor, at
-                                the University of Pennsylvania School of Dental
-                                Medicine. She continues remains active as a board member
-                                for the Michigan Dental Association young dentist member
-                                committee addition keeping up with advancements in
-                                dentistry through seminars and study clubs.</p>
+                            <p>Founded in 1999 by Dr. Silvia Vallis, Aliso Dental Care has been serving the Orange County community with comprehensive dental solutions.
+
+State-of-the-Art
+We utilize the latest dental technology to ensure effective treatments and exceptional results for our patients.
+
+Patient Comfort
+Our dedicated team prioritizes your comfort, making every visit a pleasant and tailored experience.</p>
 
                             <p>She truly believes that teeth whitening, crowns, and
                                 veneers are also a significant part of achieving “the
@@ -557,7 +551,7 @@
                                 proliferation of social media these days.</p>
 
                             <p>To schedule an appointment, contact our
-                                office&nbsp;<strong>248-362-1100</strong></p>
+                                office&nbsp;<strong>(949) 448-0274</strong></p>
                         </div>
                     </div>
 
@@ -700,7 +694,7 @@
                         <!-- Right Column: Images -->
                         <div class="col-lg-6">
                             <div class="mission-images">
-                                <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/Exam-Hallway-1.png" alt="Exam Hallway" class="img-fluid rounded mb-3 shadow">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp" alt="Exam Hallway" class="img-fluid rounded mb-3 shadow">
                                 <img src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2021/03/Exam-Room.png" alt="Exam Room" class="img-fluid rounded shadow">
                             </div>
                         </div>

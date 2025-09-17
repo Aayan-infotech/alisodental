@@ -28,7 +28,7 @@
                                     <div class="elementor-widget-container">
                                         <h2
                                             class="elementor-heading-title elementor-size-default">
-                                            Patients Love Our Gentle Approach</h2>
+                                            The Gentle Dental Experience</h2>
                                     </div>
                                 </div>
 
@@ -52,12 +52,7 @@
                                                                 class="elementor-testimonial__content">
                                                                 <div
                                                                     class="elementor-testimonial__text">
-                                                                    They are gentle, pain free,
-                                                                    caring & very attentive to
-                                                                    every need. I can’t better
-                                                                    describe this place other
-                                                                    than AMAZING! Truly amazing
-                                                                    in every way.
+                                                                  Discover what our patients call an amazing experience. We are dedicated to gentle, pain-free, and deeply attentive care, tailored to your every need.
                                                                 </div>
                                                             </div>
                                                             <div
@@ -279,9 +274,7 @@
                                                                         class="elementor-icon-list-icon"><i
                                                                             class="fas fa-map-marker-alt"></i></span>
                                                                     <span
-                                                                        class="elementor-icon-list-text">3960
-                                                                        Crooks Rd Suite 100<br>
-                                                                        Troy, MI 48084</span>
+                                                                        class="elementor-icon-list-text">15 Mareblu #380, Aliso Viejo,<br> CA 92656,</span>
                                                                 </a>
                                                             </li>
                                                             <li
@@ -291,8 +284,7 @@
                                                                         class="elementor-icon-list-icon"><i
                                                                             class="fas fa-phone-alt"></i></span>
                                                                     <span
-                                                                        class="elementor-icon-list-text">(248)
-                                                                        362-1100</span>
+                                                                        class="elementor-icon-list-text">(949) 448-0274</span>
                                                                 </a>
                                                             </li>
                                                             <li
@@ -337,15 +329,15 @@
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Meet Dr. Batra</a>
+                                                                <a href="about-us">About</a>
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Our Office</a>
+                                                                <a href="full-service-dentistry">Full Service</a>
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Contact Us</a>
+                                                                <a href="contact-us">Contact Us</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -374,24 +366,20 @@
                                                         <ul class="elementor-icon-list-items">
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Cosmetic
-                                                                    Dentistry</a>
+                                                                <a href="">General Dentistry</a>
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Restorative
-                                                                    Dentistry</a>
+                                                                <a href="">Cosmetic Dentistry</a>
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
-                                                                <a href="">Full Service
-                                                                    Dentistry</a>
+                                                                <a href="">Teeth Whitening</a>
                                                             </li>
                                                             <li
                                                                 class="elementor-icon-list-item">
                                                                 <a href=""
-                                                                    target="_blank"><b>Patient
-                                                                        Registration</b></a>
+                                                                    target="_blank"><b>Crowns & Bridges</b></a>
                                                             </li>
                                                         </ul>
                                                     </div>
