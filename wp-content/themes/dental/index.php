@@ -1476,7 +1476,7 @@
                                     
 
                                     <!-- Column 2 -->
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-52f7d4b9"
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-52f7d4b9"
                                         data-id="52f7d4b9" data-element_type="column"
                                         data-settings='{"background_background":"classic"}'>
                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -1523,7 +1523,7 @@
                                     </div>
 
                                     <!-- Column 3 -->
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-74ab5e42"
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-74ab5e42"
                                         data-id="74ab5e42" data-element_type="column"
                                         data-settings='{"background_background":"classic"}'>
                                         <div class="elementor-widget-wrap elementor-element-populated">
