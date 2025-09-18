@@ -1473,50 +1473,7 @@
                                 <div class="elementor-container elementor-column-gap-no">
 
                                     <!-- Column 1 -->
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-66f2a1f8"
-                                        data-id="66f2a1f8" data-element_type="column"
-                                        data-settings='{"background_background":"classic"}'>
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-
-                                            <!-- Image -->
-                                            <div class="elementor-element elementor-element-72ab4654 elementor-widget elementor-widget-image"
-                                                data-id="72ab4654" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="<?php echo site_url(); ?>">
-                                                        <img loading="lazy" decoding="async" width="800" height="457"
-                                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/blog1.jpg"
-                                                            class="attachment-large size-large wp-image-669" alt=""
-                                                            srcset="<?php echo get_template_directory_uri(); ?>/assets/images/blog1.jpg 1423w, <?php echo get_template_directory_uri(); ?>/assets/images/blog1.jpg 1200w, <?php echo get_template_directory_uri(); ?>/assets/images/blog1.jpg 800w"
-                                                            sizes="(max-width: 800px) 100vw, 800px">
-                                                    </a>
-                                                </div>
-                                            </div>
-
-                                            <!-- Heading -->
-                                            <div class="elementor-element elementor-element-9a05240 elementor-widget elementor-widget-heading"
-                                                data-id="9a05240" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">
-                                                        <a href="">Educational Dental Videos</a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-
-                                            <!-- Text -->
-                                            <div class="elementor-element elementor-element-1ccdfcf4 elementor-widget elementor-widget-text-editor"
-                                                data-id="1ccdfcf4" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p>We offer an extensive educational video
-                                                        library to help extend your knowledge.
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
+                                    
 
                                     <!-- Column 2 -->
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-52f7d4b9"
