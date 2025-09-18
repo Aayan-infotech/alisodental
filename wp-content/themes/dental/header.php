@@ -170,6 +170,27 @@
         .offcanvas-header .btn-close {
             padding: 20px;
         }
+
+        .sidebar a.active,
+        .offcanvas a.active {
+            color: #c39a3a;
+            /* highlight color */
+            font-weight: bold;
+            position: relative;
+            background: #b2d0da;
+        }
+
+        .sidebar a.active::after,
+        .offcanvas a.active::after {
+            content: "\f105";
+            /* or use FontAwesome → "\f004" */
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #c39a3a;
+            position: absolute;
+            right: 10px;
+            /* adjust as needed */
+        }
     </style>
     <?php
     if (function_exists('has_site_icon') && has_site_icon()) {
@@ -186,14 +207,46 @@
             the_custom_logo();
         }
         ?>
-        <a href="<?php echo site_url(); ?>">Home</a>
-        <a href="<?php echo site_url(); ?>/about-us">About Us</a>
-        <a href="<?php echo site_url(); ?>/patient-forms">Patient Forms</a>
-        <a href="<?php echo site_url(); ?>/cosmetic-dentistry">Cosmetic Dentistry</a>
-        <a href="<?php echo site_url(); ?>/restorative-dentistry">Restorative Dentistry</a>
-        <a href="<?php echo site_url(); ?>/full-service-dentistry">Full Service Dentistry</a>
-        <a href="<?php echo site_url(); ?>/membership">Membership</a>
-        <a href="<?php echo site_url(); ?>/contact-us">Contact Us</a>
+        <a href="<?php echo site_url(); ?>" class="<?php if (is_front_page())
+               echo 'active'; ?>">
+            Home
+        </a>
+
+        <a href="<?php echo site_url(); ?>/about-us" class="<?php if (is_page('about-us'))
+               echo 'active'; ?>">
+            About Us
+        </a>
+
+        <a href="<?php echo site_url(); ?>/patient-forms" class="<?php if (is_page('patient-forms'))
+               echo 'active'; ?>">
+            Patient Forms
+        </a>
+
+        <a href="<?php echo site_url(); ?>/cosmetic-dentistry" class="<?php if (is_page('cosmetic-dentistry'))
+               echo 'active'; ?>">
+            Cosmetic Dentistry
+        </a>
+
+        <a href="<?php echo site_url(); ?>/restorative-dentistry" class="<?php if (is_page('restorative-dentistry'))
+               echo 'active'; ?>">
+            Restorative Dentistry
+        </a>
+
+        <a href="<?php echo site_url(); ?>/full-service-dentistry" class="<?php if (is_page('full-service-dentistry'))
+               echo 'active'; ?>">
+            Full Service Dentistry
+        </a>
+
+        <a href="<?php echo site_url(); ?>/membership" class="<?php if (is_page('membership'))
+               echo 'active'; ?>">
+            Membership
+        </a>
+
+        <a href="<?php echo site_url(); ?>/contact-us" class="<?php if (is_page('contact-us'))
+               echo 'active'; ?>">
+            Contact Us
+        </a>
+
         <div class="social-icons">
             <a href="#"><i class="fab fa-google"></i></a>
             <a href="#"><i class="fab fa-facebook-f"></i></a>
