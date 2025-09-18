@@ -321,16 +321,16 @@
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
                                                             <li class="elementor-icon-list-item">
-                                                                <a href="">General Dentistry</a>
+                                                                <a href="patient-forms">General Dentistry</a>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
-                                                                <a href="">Cosmetic Dentistry</a>
+                                                                <a href="cosmetic-dentistry">Cosmetic Dentistry</a>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
-                                                                <a href="">Teeth Whitening</a>
+                                                                <a href="restorative-dentistry">Teeth Whitening</a>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
-                                                                <a href="" target="_blank"><b>Crowns & Bridges</b></a>
+                                                                <a href="membership" target="_blank"><b>Crowns & Bridges</b></a>
                                                             </li>
                                                         </ul>
                                                     </div>

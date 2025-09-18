@@ -86,3 +86,32 @@ function mytheme_enqueue_assets()
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue_assets');
 
+add_action('wp_ajax_custom_contact_us_callback','custom_contact_us_callback');
+add_action('wp_ajax_nopriv_custom_contact_us_callback','custom_contact_us_callback');
+
+
+function custom_contact_us_callback(){
+    global $wpdb;
+    $name    = $_POST['name'];
+    $email   = $_POST['email'];
+    $phone   = $_POST['phone'];
+    $message = $_POST['message'];
+    $table_name = $wpdb->prefix . 'aliso_contact'; 
+    $inserted = $wpdb->insert(
+        $table_name,
+        array(
+            'name'       => $name,
+            'email'      => $email,
+            'phone'      => $phone,
+            'comment'    => $message,
+            'created_at' => current_time('mysql')
+        ),
+        array('%s','%s','%s','%s','%s')
+    );
+    if($inserted){
+        wp_send_json_success('Data saved successfully');
+    } else {
+        wp_send_json_error('Something went wrong!');
+    }
+    wp_die();
+}

@@ -7,7 +7,8 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; padding: 60px 0;">
+            <section
+                style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/about-bg.webp'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; padding: 60px 0;">
                 <div class="container bg-white text-center py-5 px-4 rounded shadow" style="max-width: 900px;">
 
                     <h2 class="display-5 fw-light mb-3" style="color: #a0c0cd;">Contact Aliso Dental</h2>
@@ -18,7 +19,8 @@
                         Location: 15 Mareblu #380, Aliso Viejo, CA 92656,
                     </p>
 
-                    <a href="#patient-registration" class="btn btn-light text-uppercase px-4 py-2 fw-semibold mb-4" style="background-color: #a0c0cd; color: white; letter-spacing: 1px;">
+                    <a href="#patient-registration" class="btn btn-light text-uppercase px-4 py-2 fw-semibold mb-4"
+                        style="background-color: #a0c0cd; color: white; letter-spacing: 1px;">
                         Patient Registration
                     </a>
 
@@ -26,23 +28,28 @@
                         <h4 class="mb-4 text-warning fw-bold">Request an Appointment</h4>
                         <form action="#" method="POST" id="contact">
                             <div class="mb-3">
-                                <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"
+                                    required>
                             </div>
                             <div class="mb-3">
-                                <input type="tel" name="phone" class="form-control" placeholder="Phone" required>
+                                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone"
+                                    required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email"
+                                    required>
                             </div>
                             <div class="mb-3">
-                                <textarea name="message" class="form-control" rows="5" placeholder="Comments/Questions" required></textarea>
+                                <textarea name="message" id="message" class="form-control" rows="5"
+                                    placeholder="Comments/Questions" required></textarea>
                             </div>
 
                             <div class="mb-3 text-start">
                                 <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                             </div>
 
-                            <button type="submit" class="btn btn-block w-100 py-2 fw-bold text-uppercase" style="background-color: #a0c0cd; color: white; letter-spacing: 2px;">
+                            <button type="submit" class="contact_submit btn btn-block w-100 py-2 fw-bold text-uppercase"
+                                style="background-color: #a0c0cd; color: white; letter-spacing: 2px;">
                                 Send Message
                             </button>
                         </form>
@@ -59,4 +66,68 @@
         </div>
     </div>
 </div>
+<script>
+    jQuery(document).ready(function ($) {
+    $('.contact_submit').on('click', function (e) {
+        e.preventDefault();
+
+        var name    = $('#name').val().trim();
+        var phone   = $('#phone').val().trim();
+        var email   = $('#email').val().trim();
+        var message = $('#message').val().trim();
+
+         if (name === "") {
+            alert("Please enter your name");
+            $('#name').focus();
+            return false;
+        }
+
+
+          var phoneRegex = /^[0-9]{10}$/;
+        if (!phoneRegex.test(phone)) {
+            alert("Please enter a valid 10-digit phone number");
+            $('#phone').focus();
+            return false;
+        }
+
+        // Email validation
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address");
+            $('#email').focus();
+            return false;
+        }
+
+        if (message === "") {
+            alert("Please enter your message");
+            $('#message').focus();
+            return false;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "<?php echo admin_url('admin-ajax.php'); ?>",
+            data: {
+                action: "custom_contact_us_callback",
+                name: name,
+                phone: phone,
+                email: email,
+                message: message
+            },
+            success: function (response) {
+                if (response.success) {
+                    alert("Data saved successfully!");
+                     location.reload();
+                } else {
+                    alert("Something went wrong!");
+                }
+            },
+            error: function () {
+                alert("Ajax error occurred!");
+            }
+        });
+    });
+});
+
+</script>
 <?php get_footer(); ?>

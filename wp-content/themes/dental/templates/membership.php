@@ -125,7 +125,7 @@
     <div class="elementor-widget-container">
         <div data-elementor-type="wp-page" data-elementor-id="31" class="elementor elementor-31"
             data-elementor-post-type="page">
-            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Memberships.png');">
+            <section class="hero-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Membership.jpg');">
                 <div class="overlay"></div>
                 <div class="hero-content">
                     <div class="heading-strip-full">
@@ -190,9 +190,9 @@
                         <div class="row justify-content-center align-items-center text-center">
                             <!-- Text Content: Takes 9 columns on large screens, stacks on small -->
                             <div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
-                                <h5>Have A Child Under Three? <br class="d-md-none">They Can Join for Free!</h5>
+                                <h5>Why Pay for Your Baby?  <br class="d-md-none">Membership is Free for Under 3</h5>
                                 <p class="mb-1">
-                                    Kids under 3 years can enroll in the Youth membership for free when a parent or guardian enrolls in an Adult membership.
+                                    When you sign up for any Adult Membership, you can enroll your child (under 3 years old) in our Youth program at no additional cost. It's our way of making it easier for the whole family to get involved from the very start.
                                 </p>
                                 <h6 class="fw-bold mt-3">Aliso dental</h6>
                                 <p class="mb-0">
