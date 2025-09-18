@@ -92,6 +92,21 @@
             text-transform: uppercase;
         }
 
+        .sidebar .reserve-btn:hover {
+            background-color: #D7AC47;
+            ;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 14px;
+            padding: 12px;
+            text-align: center;
+            border-radius: 6px;
+            width: 100%;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
         /* Content */
         .content {
             margin-left: 260px;
@@ -193,7 +208,8 @@
                 the_custom_logo();
             }
             ?>
-            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar">
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileSidebar">
                 ☰
             </button>
         </div>
