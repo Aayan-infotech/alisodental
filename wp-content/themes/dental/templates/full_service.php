@@ -198,7 +198,7 @@
                             <p class="description">
                                 We prioritize your periodontal health because a truly beautiful smile begins with a strong, healthy foundation. Our comprehensive dental services are designed to keep your gums and teeth healthy, ensuring your smile stays vibrant and confident for years to come.
                             </p>
-                            <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
+                            <a href="contact-us" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_658592416-800x533.jpg" alt="Smiling couple by the water" class="img-fluid rounded shadow-sm">

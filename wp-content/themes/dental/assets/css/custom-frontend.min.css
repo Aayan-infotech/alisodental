@@ -10059,5 +10059,6 @@ body.elementor-page .elementor-widget-menu-anchor {
 }
 .gallery-img-custom{
     width: 100%;
-    height: 330px !important;
+    aspect-ratio: 4 / 4;
+    object-fit: cover;
 }

@@ -624,7 +624,7 @@
                                 staying at the forefront of care by continually advancing our education in this
                                 innovative field of facial aesthetics.
                             </p>
-                            <a href="#" class="tds-practice-btn">Contact Us</a>
+                            <a href="contact-us" class="tds-practice-btn">Contact Us</a>
                         </div>
 
                         <!-- Image Column -->
@@ -734,7 +734,7 @@
 
             <section class="py-5 bg-light" id="advanced-technology">
                 <div class="container">
-                    <h2 class="text-center mb-5">Advanced Technology</h2>
+                    <h2 class="text-center mission-title">Advanced Technology</h2>
                     <div class="row g-4">
                         <?php
                         $args = array(

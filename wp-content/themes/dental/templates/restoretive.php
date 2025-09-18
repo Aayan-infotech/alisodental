@@ -199,7 +199,7 @@
                                  <p class="description">
                                We provide Restorative Dentistry to repair damaged teeth, treat tooth decay, fix cracks, and care for gums. Our services include tooth fillings, bridges, implants, and more. Book a consultation with our experts for personalized implant and smile restoration solutions.
                             </p>
-                            <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
+                            <a href="contact-us" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1692923749-1-800x534.jpg" alt="Smiling couple by the water" class="img-fluid rounded shadow-sm">

@@ -103,7 +103,7 @@
                     <p class="section-text">
                         Please complete your patient registration using the link below. If you have any questions or need assistance, our team will be happy to help—just give us a call.
                     </p>
-                    <a href="#" class="btn custom-btn mt-3">Patient Registration</a>
+                    <a href="contact-us" class="btn custom-btn mt-3">Patient Registration</a>
                 </div>
             </section>
         </div>

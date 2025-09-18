@@ -1,19 +1,17 @@
 <div>
     <?php wp_footer(); ?>
 </div>
-<div class="elementor-element elementor-element-9ccf0d2 elementor-widget elementor-widget-template"
-    data-id="9ccf0d2" data-element_type="widget" data-widget_type="template.default">
+<div class="elementor-element elementor-element-9ccf0d2 elementor-widget elementor-widget-template" data-id="9ccf0d2"
+    data-element_type="widget" data-widget_type="template.default">
     <div class="elementor-widget-container">
         <div class="elementor-template">
             <footer data-elementor-type="footer" data-elementor-id="81"
-                class="elementor elementor-81 elementor-location-single"
-                data-elementor-post-type="elementor_library">
+                class="elementor elementor-81 elementor-location-single" data-elementor-post-type="elementor_library">
 
                 <!-- Testimonials Section -->
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-489c86a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="489c86a" data-element_type="section"
-                    data-settings='{"background_background":"classic"}'>
+                    data-id="489c86a" data-element_type="section" data-settings='{"background_background":"classic"}'>
                     <div class="elementor-background-overlay"></div>
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b5c5753"
@@ -23,11 +21,9 @@
 
                                 <!-- Heading -->
                                 <div class="elementor-element elementor-element-982cb2c elementor-widget elementor-widget-heading"
-                                    data-id="982cb2c" data-element_type="widget"
-                                    data-widget_type="heading.default">
+                                    data-id="982cb2c" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2
-                                            class="elementor-heading-title elementor-size-default">
+                                        <h2 class="elementor-heading-title elementor-size-default">
                                             Dentistry with a Gentle Touch</h2>
                                     </div>
                                 </div>
@@ -39,26 +35,23 @@
                                     data-widget_type="testimonial-carousel.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-swiper">
-                                            <div class="elementor-main-swiper swiper"
-                                                role="region" aria-roledescription="carousel"
-                                                aria-label="Slides">
+                                            <div class="elementor-main-swiper swiper" role="region"
+                                                aria-roledescription="carousel" aria-label="Slides">
                                                 <div class="swiper-wrapper">
 
                                                     <!-- Testimonial Slide -->
-                                                    <div class="swiper-slide" role="group"
-                                                        aria-roledescription="slide">
+                                                    <div class="swiper-slide" role="group" aria-roledescription="slide">
                                                         <div class="elementor-testimonial">
-                                                            <div
-                                                                class="elementor-testimonial__content">
-                                                                <div
-                                                                    class="elementor-testimonial__text">
-                                                                  Experience what our patients describe as truly exceptional care. We are committed to gentle, pain-free, and personalized dental treatments designed to meet your unique needs.
+                                                            <div class="elementor-testimonial__content">
+                                                                <div class="elementor-testimonial__text">
+                                                                    Experience what our patients describe as truly
+                                                                    exceptional care. We are committed to gentle,
+                                                                    pain-free, and personalized dental treatments
+                                                                    designed to meet your unique needs.
                                                                 </div>
                                                             </div>
-                                                            <div
-                                                                class="elementor-testimonial__footer">
-                                                                <cite
-                                                                    class="elementor-testimonial__cite">
+                                                            <div class="elementor-testimonial__footer">
+                                                                <cite class="elementor-testimonial__cite">
                                                                     <!-- <span
                                                                         class="elementor-testimonial__name">Stephanie
                                                                         N.</span>
@@ -86,8 +79,7 @@
                 <!-- Branding Section -->
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-8f909d9 elementor-section-content-middle elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="8f909d9" data-element_type="section"
-                    data-settings='{"background_background":"classic"}'>
+                    data-id="8f909d9" data-element_type="section" data-settings='{"background_background":"classic"}'>
                     <div class="elementor-container elementor-column-gap-wider">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b4d38f"
                             data-id="4b4d38f" data-element_type="column">
@@ -96,20 +88,17 @@
                                 <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-432d37f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="432d37f" data-element_type="section">
-                                    <div
-                                        class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-container elementor-column-gap-default">
 
                                         <!-- Column 1: Text -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-70e31b3"
                                             data-id="70e31b3" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-badfe1a elementor-widget elementor-widget-heading"
                                                     data-id="badfe1a" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2
-                                                            class="elementor-heading-title elementor-size-default">
+                                                        <h2 class="elementor-heading-title elementor-size-default">
                                                             Dentistry: The Art of The Art.</h2>
                                                     </div>
                                                 </div>
@@ -119,8 +108,7 @@
                                         <!-- Column 2: Logo -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6e57f0b"
                                             data-id="6e57f0b" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-5e43e44 elementor-widget elementor-widget-image"
                                                     data-id="5e43e44" data-element_type="widget"
                                                     data-widget_type="image.default">
@@ -137,23 +125,19 @@
                                         <!-- Column 3: Button -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ce61090"
                                             data-id="ce61090" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-81f8d62 elementor-widget elementor-widget-button"
                                                     data-id="81f8d62" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
                                                             <a class="elementor-button elementor-button-link elementor-size-md"
-                                                                href="">
-                                                                <span
-                                                                    class="elementor-button-content-wrapper">
-                                                                    <span
-                                                                        class="elementor-button-icon"><i
+                                                                href="contact-us">
+                                                                <span class="elementor-button-content-wrapper">
+                                                                    <span class="elementor-button-icon"><i
                                                                             aria-hidden="true"
                                                                             class="fas fa-tooth"></i></span>
-                                                                    <span
-                                                                        class="elementor-button-text">Book
+                                                                    <span class="elementor-button-text">Book
                                                                         Appointment</span>
                                                                 </span>
                                                             </a>
@@ -174,8 +158,7 @@
                 <!-- Contact & Links Section -->
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-163e5bc elementor-section-boxed elementor-section-height-default elementor-section-height-default bg-dark"
-                    data-id="163e5bc" data-element_type="section"
-                    data-settings='{"background_background":"classic"}'>
+                    data-id="163e5bc" data-element_type="section" data-settings='{"background_background":"classic"}'>
                     <div class="elementor-container elementor-column-gap-default">
 
                         <!-- Left Column: Logo & Social -->
@@ -184,14 +167,12 @@
                             <div class="elementor-widget-wrap elementor-element-populated">
 
                                 <div class="elementor-element elementor-element-fc67962 elementor-widget__width-inherit elementor-widget elementor-widget-image"
-                                    data-id="fc67962" data-element_type="widget"
-                                    data-widget_type="image.default">
+                                    data-id="fc67962" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <a href="#">
                                             <img style="width:100px;"
                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/Aliso-Dental-logo.png"
-                                                class="attachment-full size-full wp-image-706"
-                                                alt="Alisodental Logo">
+                                                class="attachment-full size-full wp-image-706" alt="Alisodental Logo">
                                         </a>
                                     </div>
                                 </div>
@@ -200,32 +181,25 @@
                                     data-id="76c108a" data-element_type="widget"
                                     data-widget_type="social-icons.default">
                                     <div class="elementor-widget-container">
-                                        <div class="elementor-social-icons-wrapper elementor-grid"
-                                            role="list">
+                                        <div class="elementor-social-icons-wrapper elementor-grid" role="list">
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-google"
-                                                    href="#"
-                                                    target="_blank">
-                                                    <span
-                                                        class="elementor-screen-only">Google</span>
+                                                    href="#" target="_blank">
+                                                    <span class="elementor-screen-only">Google</span>
                                                     <i class="fab fa-google"></i>
                                                 </a>
                                             </span>
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook"
-                                                    href="https://www.facebook.com"
-                                                    target="_blank">
-                                                    <span
-                                                        class="elementor-screen-only">Facebook</span>
+                                                    href="https://www.facebook.com" target="_blank">
+                                                    <span class="elementor-screen-only">Facebook</span>
                                                     <i class="fab fa-facebook"></i>
                                                 </a>
                                             </span>
                                             <span class="elementor-grid-item" role="listitem">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram"
-                                                    href="https://www.instagram.com"
-                                                    target="_blank">
-                                                    <span
-                                                        class="elementor-screen-only">Instagram</span>
+                                                    href="https://www.instagram.com" target="_blank">
+                                                    <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i>
                                                 </a>
                                             </span>
@@ -245,20 +219,17 @@
                                 <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-9e25307 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="9e25307" data-element_type="section">
-                                    <div
-                                        class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-container elementor-column-gap-default">
 
                                         <!-- Column: Contact -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c9b2e67"
                                             data-id="c9b2e67" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-5c6d781 elementor-widget elementor-widget-heading"
                                                     data-id="5c6d781" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h5
-                                                            class="elementor-heading-title elementor-size-default">
+                                                        <h5 class="elementor-heading-title elementor-size-default">
                                                             About</h5>
                                                     </div>
                                                 </div>
@@ -267,32 +238,25 @@
                                                     data-widget_type="icon-list.default">
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="" target="_blank">
-                                                                    <span
-                                                                        class="elementor-icon-list-icon"><i
+                                                                    <span class="elementor-icon-list-icon"><i
                                                                             class="fas fa-map-marker-alt"></i></span>
-                                                                    <span
-                                                                        class="elementor-icon-list-text">15 Mareblu #380, Aliso Viejo,<br> CA 92656,</span>
+                                                                    <span class="elementor-icon-list-text">15 Mareblu
+                                                                        #380, Aliso Viejo,<br> CA 92656,</span>
                                                                 </a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="tel:2483621100">
-                                                                    <span
-                                                                        class="elementor-icon-list-icon"><i
+                                                                    <span class="elementor-icon-list-icon"><i
                                                                             class="fas fa-phone-alt"></i></span>
-                                                                    <span
-                                                                        class="elementor-icon-list-text">(949) 448-0274</span>
+                                                                    <span class="elementor-icon-list-text">(949)
+                                                                        448-0274</span>
                                                                 </a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
-                                                                <a
-                                                                    href="mailto:info@alisodentalcare.com">
-                                                                    <span
-                                                                        class="elementor-icon-list-icon"><i
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="mailto:info@alisodentalcare.com">
+                                                                    <span class="elementor-icon-list-icon"><i
                                                                             class="fas fa-envelope"></i></span>
                                                                     <span
                                                                         class="elementor-icon-list-text">info@alisodentalcare.com</span>
@@ -307,14 +271,12 @@
                                         <!-- Column: Links -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5489a5d"
                                             data-id="5489a5d" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-19b224f elementor-widget elementor-widget-heading"
                                                     data-id="19b224f" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h5
-                                                            class="elementor-heading-title elementor-size-default">
+                                                        <h5 class="elementor-heading-title elementor-size-default">
                                                             Links</h5>
                                                     </div>
                                                 </div>
@@ -323,20 +285,16 @@
                                                     data-widget_type="icon-list.default">
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="">Home</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="about-us">About</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="full-service-dentistry">Full Service</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="contact-us">Contact Us</a>
                                                             </li>
                                                         </ul>
@@ -348,14 +306,12 @@
                                         <!-- Column: Services -->
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-32890fb"
                                             data-id="32890fb" data-element_type="column">
-                                            <div
-                                                class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-e66926b elementor-widget elementor-widget-heading"
                                                     data-id="e66926b" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h5
-                                                            class="elementor-heading-title elementor-size-default">
+                                                        <h5 class="elementor-heading-title elementor-size-default">
                                                             Services</h5>
                                                     </div>
                                                 </div>
@@ -364,22 +320,17 @@
                                                     data-widget_type="icon-list.default">
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="">General Dentistry</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="">Cosmetic Dentistry</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
+                                                            <li class="elementor-icon-list-item">
                                                                 <a href="">Teeth Whitening</a>
                                                             </li>
-                                                            <li
-                                                                class="elementor-icon-list-item">
-                                                                <a href=""
-                                                                    target="_blank"><b>Crowns & Bridges</b></a>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="" target="_blank"><b>Crowns & Bridges</b></a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -399,18 +350,15 @@
                 <!-- Footer Credit -->
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-5051905 elementor-section-boxed elementor-section-height-default elementor-section-height-default bg-dark"
-                    data-id="5051905" data-element_type="section"
-                    data-settings='{"background_background":"classic"}'>
+                    data-id="5051905" data-element_type="section" data-settings='{"background_background":"classic"}'>
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-833440e"
                             data-id="833440e" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-bd05918 elementor-widget elementor-widget-text-editor"
-                                    data-id="bd05918" data-element_type="widget"
-                                    data-widget_type="text-editor.default">
+                                    data-id="bd05918" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        Designed & Developed by <a href="https://aayaninfotech.com/"
-                                            target="_blank"
+                                        Designed & Developed by <a href="https://aayaninfotech.com/" target="_blank"
                                             style="color: rgba(199, 198, 198, 0.8);">Aayan Infotech</a>
                                     </div>
                                 </div>

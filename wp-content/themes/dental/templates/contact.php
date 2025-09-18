@@ -13,7 +13,7 @@
                     <h2 class="display-5 fw-light mb-3" style="color: #a0c0cd;">Contact Aliso Dental</h2>
 
                     <p class="fw-bold text-warning mb-1" style="letter-spacing: 1px;">CALL US: (949) 448-0274</p>
-                    <p class="fw-bold text-dark mb-1">FAX: 248-362-2324</p>
+                    <!-- <p class="fw-bold text-dark mb-1">FAX: 248-362-2324</p> -->
                     <p class="text-uppercase fw-bold text-dark mb-4" style="letter-spacing: 2px;">
                         Location: 15 Mareblu #380, Aliso Viejo, CA 92656,
                     </p>
@@ -24,7 +24,7 @@
 
                     <div class="mt-3">
                         <h4 class="mb-4 text-warning fw-bold">Request an Appointment</h4>
-                        <form action="#" method="POST">
+                        <form action="#" method="POST" id="contact">
                             <div class="mb-3">
                                 <input type="text" name="name" class="form-control" placeholder="Name" required>
                             </div>

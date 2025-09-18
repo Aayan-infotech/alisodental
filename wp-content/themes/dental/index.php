@@ -299,7 +299,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="contact.html">
+                                                            href="contact">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-text">Reserve
                                                                     Now</span>
@@ -778,7 +778,7 @@
                                         style="display:flex; gap:20px; align-items:center; list-style:none; margin:0; padding:0;">
 
                                         <li class="elementor-icon-list-item elementor-inline-item">
-                                            <a href="">
+                                            <a href="about-us">
                                                 <span class="elementor-icon-list-icon">
                                                     <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
@@ -790,7 +790,7 @@
                                         </li>
 
                                         <li class="elementor-icon-list-item elementor-inline-item">
-                                            <a href="">
+                                            <a href="contact-us">
                                                 <span class="elementor-icon-list-icon">
                                                     <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
@@ -875,7 +875,7 @@
                                 <div class="elementor-widget-container">
                                     <ul class="elementor-icon-list-items elementor-inline-items">
                                         <li class="elementor-icon-list-item elementor-inline-item">
-                                            <a href="">
+                                            <a href="about-us">
                                                 <span class="elementor-icon-list-icon">
                                                     <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
@@ -885,7 +885,7 @@
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item elementor-inline-item">
-                                            <a href="">
+                                            <a href="contact-us">
                                                 <span class="elementor-icon-list-icon">
                                                     <i aria-hidden="true" class="fal fa-arrow-circle-right"></i>
                                                 </span>
@@ -1288,77 +1288,36 @@
                             <!-- Gallery -->
                             <div class="container my-4">
                                 <div class="row g-3">
+                                    <?php
+                                    $args = array(
+                                        'post_type' => 'Gallery', // change to your CPT like 'gallery' if you made one
+                                        'posts_per_page' => -1
+                                    );
+                                    $gallery_query = new WP_Query($args);
 
-                                    <!-- Gallery Item 1 -->
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1656761107.jpg"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1656761107.jpg"
-                                            data-bs-title="TV in Waiting Room">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shutterstock_1656761107.jpg"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom"  alt="TV in Waiting Room">
-                                        </a>
-                                    </div>
-
-                                    <!-- Gallery Item 2 -->
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
-                                            data-bs-title="Interior Office">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Waiting-Room-and-Desk.jpg"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Interior Office">
-                                        </a>
-                                    </div>
-
-                                    <!-- Gallery Item 3 -->
-                                   <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/p1.webp"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p1.webp"
-                                            data-bs-title="Build Your Confidence">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p1.webp"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Build Your Confidence">
-                                        </a>
-                                    </div>
-
-                                    
-
-                                    <!-- Gallery Item 4 -->
-                                    
-                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Amenities.png"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/Amenities.png"
-                                            data-bs-title="Your Comfort">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Amenities.png"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Your Comfort">
-                                        </a>
-                                    </div>
-
-                                    <!-- Gallery Item 5 -->
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp"
-                                            data-bs-title="Waiting Room">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Waiting Room">
-                                        </a>
-                                    </div>
-                                    <!-- Gallery Item 6 -->
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <a href="<?php echo get_template_directory_uri(); ?>/assets/images/p6.jpeg"
-                                            data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                                            data-bs-image="<?php echo get_template_directory_uri(); ?>/assets/images/p6.jpeg"
-                                            data-bs-title="Waiting Room">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p6.jpeg"
-                                                class="img-fluid rounded shadow-sm gallery-img-custom" alt="Waiting Room">
-                                        </a>
-                                    </div>
-
-                                    <!-- 👉 Add more images here following the same pattern -->
-
+                                    if ($gallery_query->have_posts()):
+                                        while ($gallery_query->have_posts()):
+                                            $gallery_query->the_post();
+                                            if (has_post_thumbnail()):
+                                                $image_url = get_the_post_thumbnail_url(get_the_ID(), 'large');
+                                                $image_alt = get_the_title();
+                                                ?>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                                    <a href="<?php echo esc_url($image_url); ?>" data-bs-toggle="modal"
+                                                        data-bs-target="#lightboxModal"
+                                                        data-bs-image="<?php echo esc_url($image_url); ?>"
+                                                        data-bs-title="<?php the_title(); ?>">
+                                                        <?php the_post_thumbnail('medium', array(
+                                                            'class' => 'img-fluid rounded shadow-sm gallery-img-custom',
+                                                            'alt' => esc_attr($image_alt)
+                                                        )); ?>
+                                                    </a>
+                                                </div>
+                                            <?php endif;
+                                        endwhile;
+                                        wp_reset_postdata();
+                                    endif;
+                                    ?>
                                 </div>
                             </div>
 
@@ -1497,7 +1456,7 @@
                                 <div class="elementor-widget-container">
                                     <ul class="elementor-icon-list-items elementor-inline-items">
                                         <li class="elementor-icon-list-item elementor-inline-item">
-                                            <a href="<?php echo site_url(); ?>/contact-us">
+                                            <a href="contact-us">
                                                 <span class="elementor-icon-list-icon"><i aria-hidden="true"
                                                         class="fal fa-arrow-circle-right"></i></span>
                                                 <span class="elementor-icon-list-text"

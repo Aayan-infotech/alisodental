@@ -200,7 +200,7 @@
                             <p class="description">
                                Beyond providing advanced cosmetic dentistry, we make it a priority to stay connected with our patients, following up on the care they receive. As one of the most trusted cosmetic and implant dentistry offices in Troy, MI, we are committed to ensuring our patients remain healthy, comfortable, and free from oral pain or concerns.
                             </p>
-                            <a href="#" class="btn appointment-btn mt-3">Book an Appointment</a>
+                            <a href="contact-us" class="btn appointment-btn mt-3">Book an Appointment</a>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img.jpg" width="80%" alt="Smiling couple by the water" class="img-fluid rounded shadow-sm">

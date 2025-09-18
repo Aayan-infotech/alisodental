@@ -196,23 +196,22 @@
                                 </p>
                                 <h6 class="fw-bold mt-3">Aliso dental</h6>
                                 <p class="mb-0">
-                                    248-362-1100 |
-                                    <a href="#" class="text-white text-decoration-underline">
+                                    92656 - 3960 |
+                                    <a href="https://alisodental.com/" class="text-white text-decoration-underline">
                                         www.alisodental.com
                                     </a>
-                                </p>
-                                <p>3960 Crooks Rd., Ste 100, Troy, Michigan, 48084</p>
+                                </p>15 Mareblu #380, Aliso Viejo, CA 92656,3960 Crooks Rd., Ste 100, Troy, Michigan, 48084</p>
                             </div>
 
                             <!-- QR Code: Takes 3 columns on large screens -->
-                            <div class="col-lg-3 col-md-6 offset-md-3 offset-lg-0">
+                            <!-- <div class="col-lg-3 col-md-6 offset-md-3 offset-lg-0">
                                 <img
                                     src="https://s33929.pcdn.co/wp-content/uploads/sites/360/2025/06/QR.jpg"
                                     alt="Scan QR"
                                     class="img-fluid rounded mx-auto d-block"
                                     style="max-width: 140px;" />
                                 <p class="text-warning mt-2 fw-bold">SCAN ME</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -233,7 +232,7 @@
                     </p>
 
                     <!-- CTA Button -->
-                    <a href="#membership-details" class="btn btn-success text-white px-4 py-2 text-uppercase fw-bold" style="letter-spacing: 2px;">
+                    <a href="contact" class="btn btn-success text-white px-4 py-2 text-uppercase fw-bold" style="letter-spacing: 2px;">
                         Click Here For More Details
                     </a>
 
